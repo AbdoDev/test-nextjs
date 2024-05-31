@@ -12,7 +12,7 @@ export default async function Posts() {
     const posts = await response.json();
     const postsJSX = posts.map((post)=>{
         return (
-            <Link href={`/posts/${post.id}`} style={{width: "70%"}}>
+            <Link key={post.id} href={`/posts/${post.id}`} style={{width: "70%"}}>
             <div style={{
                 width: "100%",
                 background: "white",

@@ -2,7 +2,7 @@ export const metadata = {
     title: 'Articles Page'
 }
 
-export default function({children}) {
+export default function ({children}) {
     return(
         <div>
             <h1>Articles</h1>
