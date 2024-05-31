@@ -22,7 +22,6 @@ export default function RootLayout({ children }) {
         alignItems: "center"
       }}>
         <Link style={{margin: "7px"}} href="/">Home</Link>
-        <Link style={{margin: "7px"}} href="/articles">Articles</Link>
         <Link style={{margin: "7px"}} href="/posts">Posts</Link>
       </nav>
         {children}
